@@ -47,7 +47,8 @@ header {
 }
 
 .blue h1, p {
-    width: 40%;
+    display: flex;
+    justify-content: center;
     align-self: center;
 }
 
@@ -62,11 +63,22 @@ header {
     justify-self: end;
 }
 
+.red p, h2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
 .orange {
     background-color: #FAB131;
     width: 50%;
     height: 50%;
     place-self: end;
+}
+.orange p, h2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .button_main {
