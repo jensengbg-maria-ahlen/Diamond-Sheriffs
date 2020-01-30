@@ -130,10 +130,6 @@ header {
     padding-left: 35%;   
 }
 
-.b_one {
-    margin-left: 15%;
-}
-
 .red {
     background-color: #F17949;
     width: 50%;
@@ -145,6 +141,16 @@ header {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-top: 15%;
+}
+
+.red > p {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.red > h2 {
+    margin-top: 1px;
 }
 
 .orange {
@@ -153,10 +159,21 @@ header {
     height: 50%;
     place-self: end;
 }
+
 .orange p, h2 {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-top: 15%;
+}
+
+.orange > p {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.orange > h2 {
+    margin-top: 1px;
 }
 
 .button {
@@ -176,6 +193,15 @@ header {
     width: 7rem;
 }
 
+.b_one {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.b_two {
+    margin-left: 9.5%;
+    margin-top: 3%;
+}
 
 
 
@@ -230,13 +256,13 @@ main {
 }
 
 .text_one > h1 {
-    margin: 10% 50% 5% 10%;
+    margin: 10% 60% 5% 10%;
 }
 
 .text_one > p {
-    align-self: flex-end;
-    
-    margin: 10% 50% 5% 10%;
+    position: absolute;
+    padding-left: 40%;
+    margin: 8% 18% 5% 10%;
 }
 
 
@@ -244,7 +270,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 8%;
 }
 
 .wrapper > section > p {
@@ -415,28 +441,46 @@ section {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.box .zero {
+.box > div > h3 {
+    margin: 25px 25px 25px 25px;
+}
+
+.box > div > h4 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 25% 25% 25% 25%;
+}
+
+
+.zero {
     background-color: #C7DDEA;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    flex-wrap: wrap;
 }
 
-.box .one {
+.one {
     background-color: #FFFFFF;
 }
-.box .two {
+.two {
     background-color: #EBEBEB;
 }
-.box .three {
+.three {
     background-color: #FFFFFF;
 }
-.box .four {
+.four {
     background-color: #F17949;
 }
-.box .five {
+.five {
     background-color: #FFFFFF;
 }
 
@@ -449,7 +493,7 @@ footer {
     background-color: #777574;
 }
 
-footer .up {
+.up {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
@@ -462,7 +506,12 @@ footer .up {
     color: rgba(0, 0, 0, 0.7);
     border: 1px solid #A9A19E;
     background-color: #A9A19E;
+    padding: 15px;
 }
 
-
-
+.up > h4 {
+    margin-top: -3px;
+}
+.up > a {
+    position: absolute;
+}
