@@ -468,22 +468,17 @@ section {
     flex-wrap: wrap;
 }
 
-.one {
-    background-color: #FFFFFF;
-}
-.two {
-    background-color: #EBEBEB;
-}
-.three {
-    background-color: #FFFFFF;
-}
-.four {
-    background-color: #F17949;
-}
-.five {
+.one , .three, .five{
     background-color: #FFFFFF;
 }
 
+.two {
+    background-color: #EBEBEB;
+}
+
+.four {
+    background-color: #F17949;
+}
 
 
 /*FOOTER*/
