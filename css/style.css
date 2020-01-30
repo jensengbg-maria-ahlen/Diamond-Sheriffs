@@ -4,6 +4,7 @@ body {
     font-style: normal;
     display: grid;
     min-width: 100vw;
+    margin: auto -10%;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;
     grid-template-areas: ". header header header header ."
@@ -222,11 +223,28 @@ main {
     min-height: 100vh; 
 }
 
+.text_one {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text_one > h1 {
+    margin: 10% 50% 5% 10%;
+}
+
+.text_one > p {
+    align-self: flex-end;
+    
+    margin: 10% 50% 5% 10%;
+}
+
 
 .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 1%;
 }
 
 .wrapper > section > p {
@@ -240,6 +258,7 @@ main {
     line-height: 18px;
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
+    margin: 10px;
 }
 
 .wrapper > section > h3 {
@@ -255,8 +274,8 @@ main {
 }
 
 .child {
-    width: 14rem;
-    height: 21rem;
+    width: 250px;
+    height: 300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -271,11 +290,15 @@ main {
     background-position: 75px 17px;
     background-size: 38%;
     border-radius: 4px;
+    margin-top: -30px;
+    width: 90%;
+    display: flex;
+    margin-left: 10px;
 }
 
 .adult {
-    width: 14rem;
-    height: 21rem;
+    width: 250px;
+    height: 300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -290,11 +313,15 @@ main {
     background-position: 70px 20px;
     background-size: 39%;
     border-radius: 4px;
+    margin-top: -30px;
+    width: 90%;
+    display: flex;
+    margin-left: 10px;
 }
 
 .old {
-    width: 14rem;
-    height: 21rem;
+    width: 250px;
+    height: 300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -309,6 +336,10 @@ main {
     background-position: 50px 35px;
     background-size: 55%;
     border-radius: 4px;
+    margin-top: -30px;
+    width: 90%;
+    display: flex;
+    margin-left: 10px;
 }
 
 .text_two {
