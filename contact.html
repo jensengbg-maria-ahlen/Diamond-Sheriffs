@@ -20,9 +20,9 @@
 
     <nav>
         <div class="top-menu">
-            <a href="/landing.html">Home</a>
-            <a href="#">Our offer</a>
-            <a href="#">Why us</a>
+            <a class="soft_text" href="/landing.html">Home</a>
+            <a class="soft_text" href="#">Our offer</a>
+            <a class="soft_text" href="#">Why us</a>
             <a class="current" href="/contact.html">Contact</a>
         </div>
     </nav>
@@ -30,10 +30,22 @@
     <main class="main-contact">
         <section class="text_one">
             <h1>Whats on your mind?</h1>
-            <input type="email" name="Your email" id="Your email">
-            <input type="text" name="Your message" id="Dear Insurance company...">
-            <button class="button b_three">Send message</button>
+            <div class="text_input">
+                <div class="input">
+                    <p>Your email</p>
+                    <input type="email" name="Your email" id="Your email">
+                </div>
+                <div class="input">
+                    <p>Your message</p>
+                    <input type="text" name="Your message" id="Dear Insurance company...">
+                    <p>Dear Insurance company...</p>
+                </div>
+                <button class="button b_three">Send message</button>
+            </div>
         </section>
+    </main>
+
+    <footer>
         <section class="navigation">
             <div class="visit">
                 <h1>Come visit us!</h1>
@@ -42,10 +54,8 @@
             </div>
             <div>
                 <img src="/img/needle.png" alt="">
-            </div> 
+            </div>
         </section>
-    </main>
-
-    <footer></footer>
+    </footer>
 </body>
 </html>
