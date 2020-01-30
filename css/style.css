@@ -90,9 +90,10 @@ header {
     align-self: center;
 }
 
-.blue .family {
+.family{
     width: 50%;
-    
+    display: grid;
+    justify-self: end;
 }
 
 .red {
@@ -106,6 +107,7 @@ header {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin: 1rem;
 }
 
 .orange {
@@ -162,11 +164,13 @@ main {
 
 }
 
-.img {
+div .img {
+    height: 38%;
     transform: translate(12px, 50%, 3em);
 }
 
 .img .blue {
+    height: 38%;
     background-color: #C7DDEA;
 }
 
