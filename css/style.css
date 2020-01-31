@@ -566,8 +566,8 @@ footer {
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-self: flex-start;
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);  
@@ -584,9 +584,9 @@ footer {
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .visit > p {
@@ -596,9 +596,7 @@ footer {
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-start;
+    margin-left: 10px;
 }
 
 
