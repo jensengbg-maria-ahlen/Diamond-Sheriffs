@@ -109,9 +109,8 @@ header {
 }
 
 .blue p {
-    display: inline-grid;
     padding-left: 15%;
-    padding-right: 30%;
+    padding-right: 32%;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -125,7 +124,7 @@ header {
 
 .family{
     width: 80%;
-    margin-top: -15%;
+    margin-top: -12%;
     padding-left: 20%;   
 }
 
@@ -496,7 +495,7 @@ section {
     justify-self: center;
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
-    margin: 25% 25% 25% 25%;
+    margin: 25% 16%;
 }
 
 
