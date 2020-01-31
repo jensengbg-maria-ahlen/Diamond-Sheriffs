@@ -119,9 +119,13 @@ header {
     text-align: left;
 }
 
+.blue p > span {
+    color: #FFFFFF;
+}
+
 .family{
     width: 80%;
-    margin-top: -13%;
+    margin-top: -15%;
     padding-left: 20%;   
 }
 
@@ -185,7 +189,7 @@ header {
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
     height: 2.5rem;
-    width: 7rem;
+    width: 9rem;
 }
 
 .b_one {
