@@ -110,7 +110,7 @@ header {
 
 .blue p {
     display: inline-grid;
-    padding-left: 15%;
+    padding-left: 18%;
     padding-right: 30%;
     font-weight: 500;
     font-size: 14px;
@@ -120,9 +120,9 @@ header {
 }
 
 .family{
-    width: 60%;
-    margin-top: -10%;
-    padding-left: 35%;   
+    width: 80%;
+    margin-top: -13%;
+    padding-left: 20%;   
 }
 
 .red {
