@@ -110,7 +110,7 @@ header {
 
 .blue p {
     display: inline-grid;
-    padding-left: 18%;
+    padding-left: 15%;
     padding-right: 30%;
     font-weight: 500;
     font-size: 14px;
@@ -119,8 +119,7 @@ header {
     text-align: left;
 }
 
-.blue p > span {
-    display: inline;
+.white {
     color: #FFFFFF;
 }
 
@@ -209,9 +208,24 @@ header {
     background-color: #C7DDEA;
     width: 100%;
     height: 100%;
+}
+
+.blue-contact div {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blue-contact div > h1 {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 24%;
+}
+
+.man-and-child{
+    justify-content: flex-end;
+    margin-top:10%;
 }
 
 
@@ -401,18 +415,63 @@ main > .text_one h1 , .text_two h1 {
     min-height: 100vh; 
 }
 
-.text_input {
-    position: absolute;
+.text_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text_main > h1 {
+    margin:30px;    
+    margin-top:-115px;
+}
+
+.text_input{
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    align-self: flex-end;
+    margin-top: 100px;
+    color: #FFFFFF;
 }
 
-.text-input > .input {
-    padding-right: 30px;
+input[type=text] {
+    background: #FEFEFE;
+    border-radius: 2px;
+    width: 300px;
+    height: 200px;
+    
+}
+
+input[type=email] {
+    background: #FEFEFE;
+    border-radius: 2px;
+    width: 300px;
+    height: 40px;
+}
+
+.b_three {
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+::placeholder {
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+/* or 14px */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+   
 }
 
 
-/*SECTION*/
+
+    /*SECTION*/
 section {
     grid-area: section;
 }
@@ -493,22 +552,27 @@ footer {
     position: absolute;
 }
 
-/*FOOTER CONTACT*/
+/*MAP CONTACT*/
 
-footer > .navigation {
-    background-image: url(/img/map-contact.png);
-    
+.navigation {
+    background: url(/img/map-contact.png); 
+    width: 100%;
+    min-height:500px;
+    margin-top: 70px;
+    display: flex;
 }
-
 .visit {
-    width: 30%;
-    height: 60%;
-    display: grid;
-    align-content: end;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
     background: #FAB131;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    margin: 20px 60px;
-    
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);  
+    margin-left: 95px; 
+    margin-top: 50px;
 }
 
 .visit h1 {
@@ -519,7 +583,9 @@ footer > .navigation {
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    margin-top: -30px ;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .visit > p {
@@ -529,6 +595,13 @@ footer > .navigation {
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
-    margin-top: -30px;
-    margin-left: -140px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+
+.needle {
+    position: absolute;
+    top:190%;
 }

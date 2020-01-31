@@ -11,9 +11,11 @@
 <body>
     <header class="blue-contact">
         <section>
-            <h1>Oh hello there!</h1>
-            <div class="man-and-child">
-                <img src="/img/man-and-child.png" alt="man ad child">
+            <div>
+                <h1>Oh hello there!</h1>
+                <div class="man-and-child">
+                    <img src="/img/man-and-child.png" alt="man ad child">
+                </div>
             </div>
         </section>
     </header>
@@ -29,33 +31,35 @@
 
     <main class="main-contact">
         <section class="text_one">
-            <h1>Whats on your mind?</h1>
-            <div class="text_input">
-                <div class="input">
-                    <p>Your email</p>
-                    <input type="email" name="Your email" id="Your email">
-                </div>
-                <div class="input">
-                    <p>Your message</p>
-                    <input type="text" name="Your message" id="Dear Insurance company...">
-                    <p>Dear Insurance company...</p>
-                </div>
+            <div class="text_main">
+                <h1>Whats on your <br>mind?</h1>
+                <form class="text_input">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <br>
+                    <label for="text">Your message</label>
+                    <input type="text" id="message" name="message" placeholder="Dear Incurance company...">
                 <button class="button b_three">Send message</button>
-            </div>
+            </form>
+            </div>        
+        </section>
+        <section>
+            <section class="navigation">
+                <div class="visit">
+                    <h1>Come visit us!</h1>
+                    <p>2219 Griffin Street <br> 
+                        San Fransisco</p>
+                </div>
+                <div class="needle">
+                    <img src="/img/needle.png" alt="">
+                </div>
+            </section>
         </section>
     </main>
 
     <footer>
-        <section class="navigation">
-            <div class="visit">
-                <h1>Come visit us!</h1>
-                <p>2219 Griffin Street <br> 
-                    San Fransisco</p>
-            </div>
-            <div>
-                <img src="/img/needle.png" alt="">
-            </div>
-        </section>
+        
     </footer>
 </body>
 </html>
