@@ -120,6 +120,7 @@ header {
 }
 
 .blue p > span {
+    display: inline;
     color: #FFFFFF;
 }
 
