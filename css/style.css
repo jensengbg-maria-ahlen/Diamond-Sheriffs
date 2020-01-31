@@ -439,12 +439,12 @@ main > .text_one h1 , .text_two h1 {
     color: #FFFFFF;
 }
 
-input[type=text] {
+textarea[id=text] {
     background: #FEFEFE;
     border-radius: 2px;
     width: 300px;
     height: 200px;
-    
+    resize: none;
 }
 
 input[type=email] {
@@ -454,12 +454,7 @@ input[type=email] {
     height: 40px;
 }
 
-.b_three {
-    margin-top: 20px;
-    margin-left: 165px;
-}
-
-.placeholder {
+::placeholder {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: normal;
@@ -470,6 +465,10 @@ input[type=email] {
     left: 10px;
 }
 
+.b_three {
+    margin-top: 20px;
+    margin-left: 165px;
+}
 
 
     /*SECTION*/
